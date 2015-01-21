@@ -5,7 +5,7 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #ffffff; }
+  background-color: #ffffe5; }
 
 /* -------------------------------- 
 
@@ -26,11 +26,11 @@ xNavigation
 
 -------------------------------- */
 header {
-  background-color: #66CC66; }
+  background-color: #339966; }
 
 .cd-logo {
   /* logo box style */
-  background-color: #66CC66;
+  background-color: #339966;
   width: 120px; }
   @media only screen and (min-width: 1024px) {
     .cd-logo {
@@ -38,13 +38,13 @@ header {
 
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: #66CC66; }
+  background: #339966; }
   .cd-main-nav li a {
     color: #ffffff;
-    border-color: #79d279; }
+    border-color: #39ac73; }
   @media only screen and (min-width: 1024px) {
     .cd-main-nav li a {
-      color: white; }
+      color: #b3e6cc; }
       .cd-main-nav li a.selected {
         color: #ffffff;
         box-shadow: 0 2px 0 #FFFFCC; }
@@ -67,9 +67,9 @@ header {
 
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: #9fdf9f; }
+  background-color: #53c68c; }
   .no-touch .cd-download:hover {
-    background-color: #d9f2d9; }
+    background-color: #8cd9b3; }
   .cd-download span {
     /* tooltip */
     background: #6699CC;
@@ -84,7 +84,7 @@ xPage title
 
 -------------------------------- */
 main > h1 {
-  color: #66CC66; }
+  color: #339966; }
   @media only screen and (min-width: 1600px) {
     main > h1 {
       /* title goes into the header on big devices */
@@ -145,9 +145,8 @@ xButtons
   border: none;
   box-shadow: none;
   border-radius: .25em;
-  text-transform: uppercase;
   font-size: 1.4rem;
-  font-family: "Baumans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
@@ -157,9 +156,9 @@ xButtons
   .no-touch .btn:hover {
     background: #538cc6; }
   .btn.btn-success {
-    background: #66CC66; }
+    background: #339966; }
     .no-touch .btn.btn-success:hover {
-      background: #53c653; }
+      background: #2d8659; }
   .btn.btn-alert {
     background: #FF6666; }
     .no-touch .btn.btn-alert:hover {
@@ -177,7 +176,7 @@ xButtons
 
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: #66CC66; }
+  color: #339966; }
 
 /* -------------------------------- 
 
@@ -204,9 +203,6 @@ input[type=text], select {
 input[type=text] {
   padding: .6em 1em;
   box-shadow: inset 1px 1px rgba(102, 153, 204, 0.02); }
-  input[type=text].success {
-    border-color: #66CC66;
-    box-shadow: 0 0 6px rgba(102, 204, 102, 0.2); }
   input[type=text].alert {
     border-color: #FF6666;
     box-shadow: 0 0 6px rgba(255, 102, 102, 0.2); }
@@ -264,7 +260,7 @@ input[type=checkbox] {
 
 input[type=radio]:checked + label::before,
 input[type=checkbox]:checked + label::before {
-  background-color: #66CC66;
+  background-color: #339966;
   border: none;
   box-shadow: none; }
 
@@ -680,11 +676,11 @@ section {
   .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
     background: #ffffb3; }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
-  background: #66CC66; }
+  background: #339966; }
   .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
-    background: #79d279; }
+    background: #39ac73; }
   .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
-    background: #53c653; }
+    background: #2d8659; }
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
   background: #6699CC; }
   .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
@@ -728,7 +724,7 @@ section {
 /* xTypography section - basic style */
 .cd-typography h1::before {
   content: 'Aa - ';
-  color: #66CC66; }
+  color: #339966; }
 
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;

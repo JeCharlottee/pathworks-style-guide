@@ -5,11 +5,12 @@
 // color palette - these colors will be the color swatches of the Colors section
 
 
-$color-1: #FFFFCC; // cream
-$color-2: #66CC66; // green
+// $color-1: #ccffcc; // cream
+$color-2: #339966; // green
 $color-3: #6699CC; // blue
 $color-4: #FF6666; // orange
 $color-5: #ffffff; // white
+$color-1: #FFFFCC; // bonus cream
 
 // additional colors
 
@@ -29,7 +30,7 @@ xBackground
 
 body {
 	/* this is the page background */
-	background-color: $color-5;
+	background-color: lighten($color-1, 5%);
 }
 
 /* -------------------------------- 
@@ -216,10 +217,9 @@ xButtons
 	border: none;
 	box-shadow: none;
 	border-radius: .25em;
-	text-transform: uppercase;
 	font: {
 		size: 1.4rem;
-		family: $secondary-font;
+		family: $primary-font;
 
 	}
 	color: $color-5;
@@ -304,10 +304,10 @@ input[type=text] {
 	padding: .6em 1em;
 	box-shadow: inset 1px 1px rgba($color-3, .02);
 
-	&.success {
-		border-color: $success;
-		box-shadow: 0 0 6px rgba($success, .2);
-	}
+	// &.success {
+	// 	border-color: $success;
+	// 	box-shadow: 0 0 6px rgba($success, .2);
+	// }
 
 	&.alert {
 		border-color: $alert;
