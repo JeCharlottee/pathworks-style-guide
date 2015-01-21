@@ -5,7 +5,7 @@
 // color palette - these colors will be the color swatches of the Colors section
 
 
-// $color-1: #ccffcc; // cream
+// $color-1: #ccffcc; // mint
 $color-2: #339966; // green
 $color-3: #6699CC; // blue
 $color-4: #FF6666; // orange
@@ -30,7 +30,7 @@ xBackground
 
 body {
 	/* this is the page background */
-	background-color: lighten($color-1, 5%);
+	background-color: lighten($color-1, 8%);
 }
 
 /* -------------------------------- 
