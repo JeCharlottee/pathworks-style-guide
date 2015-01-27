@@ -1,0 +1,19 @@
+Fonts actively used in this project
+-----------------------------------
+
+
+Font name       :   Lato
+Font provider   :   google
+
+******************************************************************************
+
+Font name       :   Raleway
+Font provider   :   google
+
+******************************************************************************
+
+
+
+
+
+Created by Typecast on 2015/01/27.

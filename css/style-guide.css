@@ -5,7 +5,8 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #fffff5; }
+  background-color: #fdfbf4;
+  background-image: url("../assets/pattern.png"); }
 
 /* -------------------------------- 
 
@@ -47,7 +48,7 @@ header {
       color: #b3e6cc; }
       .cd-main-nav li a.selected {
         color: #ffffff;
-        box-shadow: 0 2px 0 #FFFFCC; }
+        box-shadow: 0 2px 0 #f8f2df; }
       .no-touch .cd-main-nav li a:hover {
         color: #ffffff; } }
 
@@ -670,11 +671,11 @@ section {
   display: block;
   padding: .6em 0; }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #FFFFCC; }
+  background: #f8f2df; }
   .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-    background: #ffffe5; }
+    background: #fdfbf4; }
   .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-    background: #ffffb3; }
+    background: #f3eaca; }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
   background: #339966; }
   .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
